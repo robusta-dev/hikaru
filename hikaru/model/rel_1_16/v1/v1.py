@@ -1718,7 +1718,7 @@ class ProjectedVolumeSource(HikaruBase):
         result can be other mode bits set.
     """
 
-    sources: List["VolumeProjection"]
+    sources: Optional[List["VolumeProjection"]]
     defaultMode: Optional[int] = None
 
 
